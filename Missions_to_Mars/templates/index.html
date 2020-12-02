@@ -9,13 +9,20 @@
 </head>
 
 
+
 <div class="container">
-    <div class="jumbotron">
-      <h1 class="display-4">Mission to Mars</h1>
+    <div class="jumbotron text-center">
+      <h1 class="display-4"><center><b>Mission to Mars</b></center></h1>
       <hr class="my-4">
-      <a class="btn btn-primary btn-lg" href="https://mars.nasa.gov/" role="button">Scrape New Data</a>
+      <a class="btn btn-primary btn-lg" href="https://mars.nasa.gov/" role="button"><center><b>Scrape New Data</b></center></a>
     </div>
   </div>
+
+  <div class="container">
+    <h2>Latest Mars News</h2>
+    <h5>({mars_info.news_title})</h5>
+    <p>{{mars_info.news_p}}</p>
+</div>
 
 
 
@@ -23,15 +30,48 @@
 
 <div class="row">
     <div class="col">
-      <h3 class="text-center">Cards</h3>
-      <div class="card" style="width: 18rem;">
+      <div class="card" style="width: 20rem;">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h3 class="card-title">Featured Mars Image</h3>
+            <img src="../../Images/Featured_Mars_Image.jpg">
           </div>
         </div>
       </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h3 class="card-title">Mars Facts</h3>
+            <img src="../../Images/mars_facts.png">
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        1 of 2
+        <img src="../../Images/cerberus_enhanced.png">
+      </div>
+      <div class="col">
+        2 of 2
+        <img src="../../Images/schiaparelli_enhanced.png">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        1 of 2
+        <img src="../../Images/syrtis_major_enhanced.png">
+      </div>
+      <div class="col">
+        2 of 2 
+        <img src="../../Images/valles_marineris_enhanced.png">
+      </div>
+      </div>
+    </div>
   </div>
 
 

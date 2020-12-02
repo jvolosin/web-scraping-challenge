@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 import requests
 import pandas as pd 
 from selenium import webdriver
+from flask_pymongo import PyMongo
 
 
 # In[3]:
